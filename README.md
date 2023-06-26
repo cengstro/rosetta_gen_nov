@@ -15,8 +15,8 @@ This repository contains all code and data used in the manuscript Rosetta gen. n
 * `phylogeny/2_align_fastas.R` uses the `DECIPHER` R library to create and check multiple sequence alignments
 * `phylogeny/3_iqtree.sh` is a bash loop to run IQTree for all given alignment files (software must be locally callable from command line). 
 * `phylogeny/4_plot_iqtrees.R` uses `ggtree` to plot the phylogenetic trees. 
-*`cellcounts.R` processes the cell count morphotype relative abundance data
-*`fieldsite_metadata.R` processes the field metadata
+* `cellcounts.R` processes the cell count morphotype relative abundance data
+* `fieldsite_metadata.R` processes the field metadata
 * `cell_diam.R` processes the cell diameter measurements and generates Figure S2
 
 ## `data/`
